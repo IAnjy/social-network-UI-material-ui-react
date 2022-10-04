@@ -65,7 +65,7 @@ const Navbar = () => {
           </Badge>
           <Avatar
             sx={{ width: 30, height: 30 }}
-            src="image/ianjy.jpg"
+            src="/image/ianjy.jpg"
             onClick={(e) => setOpen(true)}
           />
         </Icons>
