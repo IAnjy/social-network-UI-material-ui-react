@@ -47,7 +47,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <AppBar position="sticky ">
+    <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: 'none', sm: 'block' } }}>
           IANJY DEV
@@ -70,7 +70,7 @@ const Navbar = () => {
           />
         </Icons>
         <UserBox onClick={(e) => setOpen(true)}>
-          <Avatar sx={{ width: 30, height: 30 }} src="image/ianjy.jpg" />
+          <Avatar sx={{ width: 30, height: 30 }} src="/image/ianjy.jpg" />
           <Typography variant="span"> IAnjy</Typography>
         </UserBox>
       </StyledToolbar>
